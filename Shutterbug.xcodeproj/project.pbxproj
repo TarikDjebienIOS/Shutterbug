@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3D021F01742D89A00041322 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D021EF1742D89A00041322 /* MapViewController.m */; };
 		F3E8147517393A3E0081CE94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8147417393A3E0081CE94 /* UIKit.framework */; };
 		F3E8147717393A3E0081CE94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8147617393A3E0081CE94 /* Foundation.framework */; };
 		F3E8147917393A3E0081CE94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8147817393A3E0081CE94 /* CoreGraphics.framework */; };
@@ -15,24 +16,30 @@
 		F3E8148517393A3E0081CE94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8148417393A3E0081CE94 /* AppDelegate.m */; };
 		F3E8148817393A3E0081CE94 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E8148617393A3E0081CE94 /* MainStoryboard_iPhone.storyboard */; };
 		F3E8148B17393A3E0081CE94 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E8148917393A3E0081CE94 /* MainStoryboard_iPad.storyboard */; };
-		F3E8148E17393A3E0081CE94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8148D17393A3E0081CE94 /* ViewController.m */; };
+		F3E8149617393C450081CE94 /* FlickrPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8149517393C450081CE94 /* FlickrPhotoTableViewController.m */; };
+		F3E81499173940AA0081CE94 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E81498173940AA0081CE94 /* FlickrFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3D021EE1742D89A00041322 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F3D021EF1742D89A00041322 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		F3E8147017393A3E0081CE94 /* Shutterbug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shutterbug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E8147417393A3E0081CE94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3E8147617393A3E0081CE94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3E8147817393A3E0081CE94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F3E8147C17393A3E0081CE94 /* Shutterbug-Info.plist */ = {isa = PBXFileReference; path = "Shutterbug-Info.plist"; sourceTree = "<group>"; };
+		F3E8147C17393A3E0081CE94 /* Shutterbug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shutterbug-Info.plist"; sourceTree = "<group>"; };
 		F3E8147E17393A3E0081CE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3E8148017393A3E0081CE94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F3E8148217393A3E0081CE94 /* Shutterbug-Prefix.pch */ = {isa = PBXFileReference; path = "Shutterbug-Prefix.pch"; sourceTree = "<group>"; };
-		F3E8148317393A3E0081CE94 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3E8148217393A3E0081CE94 /* Shutterbug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shutterbug-Prefix.pch"; sourceTree = "<group>"; };
+		F3E8148317393A3E0081CE94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3E8148417393A3E0081CE94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F3E8148717393A3E0081CE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F3E8148A17393A3E0081CE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F3E8148C17393A3E0081CE94 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		F3E8148D17393A3E0081CE94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3E8149417393C450081CE94 /* FlickrPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoTableViewController.h; sourceTree = "<group>"; };
+		F3E8149517393C450081CE94 /* FlickrPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoTableViewController.m; sourceTree = "<group>"; };
+		F3E81497173940A90081CE94 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		F3E81498173940AA0081CE94 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		F3E8149A1739424D0081CE94 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +86,15 @@
 		F3E8147A17393A3E0081CE94 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
-				F3E8148317393A3E0081CE94 /* AppDelegate.h */,
-				F3E8148417393A3E0081CE94 /* AppDelegate.m */,
 				F3E8148617393A3E0081CE94 /* MainStoryboard_iPhone.storyboard */,
 				F3E8148917393A3E0081CE94 /* MainStoryboard_iPad.storyboard */,
-				F3E8148C17393A3E0081CE94 /* ViewController.h */,
-				F3E8148D17393A3E0081CE94 /* ViewController.m */,
+				F3D021EE1742D89A00041322 /* MapViewController.h */,
+				F3D021EF1742D89A00041322 /* MapViewController.m */,
+				F3E8149417393C450081CE94 /* FlickrPhotoTableViewController.h */,
+				F3E8149517393C450081CE94 /* FlickrPhotoTableViewController.m */,
+				F3E81497173940A90081CE94 /* FlickrFetcher.h */,
+				F3E81498173940AA0081CE94 /* FlickrFetcher.m */,
+				F3E8149A1739424D0081CE94 /* FlickrAPIKey.h */,
 				F3E8147B17393A3E0081CE94 /* Supporting Files */,
 			);
 			path = Shutterbug;
@@ -93,6 +103,8 @@
 		F3E8147B17393A3E0081CE94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3E8148317393A3E0081CE94 /* AppDelegate.h */,
+				F3E8148417393A3E0081CE94 /* AppDelegate.m */,
 				F3E8147C17393A3E0081CE94 /* Shutterbug-Info.plist */,
 				F3E8147D17393A3E0081CE94 /* InfoPlist.strings */,
 				F3E8148017393A3E0081CE94 /* main.m */,
@@ -166,7 +178,9 @@
 			files = (
 				F3E8148117393A3E0081CE94 /* main.m in Sources */,
 				F3E8148517393A3E0081CE94 /* AppDelegate.m in Sources */,
-				F3E8148E17393A3E0081CE94 /* ViewController.m in Sources */,
+				F3E8149617393C450081CE94 /* FlickrPhotoTableViewController.m in Sources */,
+				F3E81499173940AA0081CE94 /* FlickrFetcher.m in Sources */,
+				F3D021F01742D89A00041322 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +302,7 @@
 				F3E8149317393A3E0081CE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

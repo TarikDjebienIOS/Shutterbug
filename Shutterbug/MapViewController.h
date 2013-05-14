@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  MapViewController.h
 //  Shutterbug
 //
-//  Created by Tarik Djebien on 07/05/13.
+//  Created by Tarik Djebien on 14/05/13.
 //  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MapViewController : UITableViewController
 
 @end
