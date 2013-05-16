@@ -10,4 +10,4 @@
 #define Shutterbug_FlickrAPIKey_h
 #endif
 
-#define FlickrAPIKey @"a510401a8eec06cc7dd552d7c8e3dbc7"
+#define FlickrAPIKey @"729effc82fb6f07bc75e4ed630ba3e16"

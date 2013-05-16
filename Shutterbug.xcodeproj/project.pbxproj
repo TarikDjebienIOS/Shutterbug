@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34A5203174378AB0091A3DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34A5202174378AB0091A3DA /* MapKit.framework */; };
+		F34A5206174378B40091A3DA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34A5205174378B40091A3DA /* CoreLocation.framework */; };
+		F34A520917437DA00091A3DA /* FlickrPhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A520817437DA00091A3DA /* FlickrPhotoAnnotation.m */; };
 		F3D021F01742D89A00041322 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D021EF1742D89A00041322 /* MapViewController.m */; };
 		F3E8147517393A3E0081CE94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8147417393A3E0081CE94 /* UIKit.framework */; };
 		F3E8147717393A3E0081CE94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8147617393A3E0081CE94 /* Foundation.framework */; };
@@ -21,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F34A5202174378AB0091A3DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F34A5205174378B40091A3DA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F34A520717437D9F0091A3DA /* FlickrPhotoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoAnnotation.h; sourceTree = "<group>"; };
+		F34A520817437DA00091A3DA /* FlickrPhotoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoAnnotation.m; sourceTree = "<group>"; };
 		F3D021EE1742D89A00041322 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		F3D021EF1742D89A00041322 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		F3E8147017393A3E0081CE94 /* Shutterbug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shutterbug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34A5206174378B40091A3DA /* CoreLocation.framework in Frameworks */,
+				F34A5203174378AB0091A3DA /* MapKit.framework in Frameworks */,
 				F3E8147517393A3E0081CE94 /* UIKit.framework in Frameworks */,
 				F3E8147717393A3E0081CE94 /* Foundation.framework in Frameworks */,
 				F3E8147917393A3E0081CE94 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +68,8 @@
 		F3E8146517393A3D0081CE94 = {
 			isa = PBXGroup;
 			children = (
+				F34A5205174378B40091A3DA /* CoreLocation.framework */,
+				F34A5202174378AB0091A3DA /* MapKit.framework */,
 				F3E8147A17393A3E0081CE94 /* Shutterbug */,
 				F3E8147317393A3E0081CE94 /* Frameworks */,
 				F3E8147117393A3E0081CE94 /* Products */,
@@ -92,6 +103,8 @@
 				F3D021EF1742D89A00041322 /* MapViewController.m */,
 				F3E8149417393C450081CE94 /* FlickrPhotoTableViewController.h */,
 				F3E8149517393C450081CE94 /* FlickrPhotoTableViewController.m */,
+				F34A520717437D9F0091A3DA /* FlickrPhotoAnnotation.h */,
+				F34A520817437DA00091A3DA /* FlickrPhotoAnnotation.m */,
 				F3E81497173940A90081CE94 /* FlickrFetcher.h */,
 				F3E81498173940AA0081CE94 /* FlickrFetcher.m */,
 				F3E8149A1739424D0081CE94 /* FlickrAPIKey.h */,
@@ -181,6 +194,7 @@
 				F3E8149617393C450081CE94 /* FlickrPhotoTableViewController.m in Sources */,
 				F3E81499173940AA0081CE94 /* FlickrFetcher.m in Sources */,
 				F3D021F01742D89A00041322 /* MapViewController.m in Sources */,
+				F34A520917437DA00091A3DA /* FlickrPhotoAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
